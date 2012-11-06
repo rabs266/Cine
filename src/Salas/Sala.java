@@ -50,6 +50,9 @@ public class Sala {
         return tipo;
     }
     
-    
+    @Override
+     public String toString(){
+        return "Codigo: "+cod+" Tipo: "+tipo+" Precio: "+precio;
+    }
     
 }

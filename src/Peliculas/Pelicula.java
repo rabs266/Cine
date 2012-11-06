@@ -53,6 +53,9 @@ public class Pelicula {
         return titulo;
     }
     
-    
+    @Override
+    public String toString(){
+        return "Codigo: "+cod+" Titulo: "+titulo+" Duracion: "+dura;
+    }
     
 }
